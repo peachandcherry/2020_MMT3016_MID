@@ -160,13 +160,13 @@ void draw(){
   fill(50,50,50);
   textSize(25);
   textAlign(CENTER,CENTER);
-  text("스물 네 살 김지혜는 어떤 조각들로 이루어져 있고, 어떤 삶을 살아왔을까요?", width/2, 1150);
-  text("스물 네 살 김지혜를 이루고 있는 사랑의 조각들을 소개합니다.", width/2, 1190);
+  text("text(1)", width/2, 1150);
+  text("text(2)", width/2, 1190);
   textFont(font3);
   fill(103,103,103);
   textSize(15);
   textAlign(CENTER,CENTER);
-  text("*각 네모를 클릭하시면 해당하는 사진을 보실 수 있습니다*", width/2, 1230);
+  text("text(3)", width/2, 1230);
 }
 
 void mouseClicked(){
